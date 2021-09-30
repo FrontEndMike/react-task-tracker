@@ -60,6 +60,9 @@ body {
   padding: 10px 20px;
   cursor: pointer;
 }
+.task svg:hover{
+  background-color: rgba(149, 150, 152, 0.502);
+}
 
 .task.reminder {
   border-left: 5px solid green;
