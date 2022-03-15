@@ -26,6 +26,8 @@ const toggleReminder = (id) => {
   ? { ...task, reminder: !task.reminder } : task))
 }
 
+const url = "https://www.instagram.com/frontendmike/?hl=en";
+
 
   return (
     <div className="container">
@@ -36,8 +38,18 @@ const toggleReminder = (id) => {
       ) : (
         'No tasks'
       )}
+      <a href={url} target="_blank" style={{color: 'blue', marginTop: '1rem', display: 'block'}}
+      >
+        By: FrontEndMike
+      </a>
+      
     </div>
+    
   );
+  
+  
 }
+
+
 
 export default App;
