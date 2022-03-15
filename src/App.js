@@ -40,7 +40,7 @@ const url = "https://www.instagram.com/frontendmike/?hl=en";
       )}
       <a href={url} target="_blank" style={{color: 'blue', marginTop: '1rem', display: 'block'}}
       >
-        By: FrontEndMike
+        By: Frontendmike
       </a>
       
     </div>
