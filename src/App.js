@@ -38,7 +38,7 @@ const url = "https://www.instagram.com/frontendmike/?hl=en";
       ) : (
         'No tasks'
       )}
-      <a href={url} target="_blank" style={{color: 'blue', marginTop: '1rem', display: 'block'}}
+      <a href={url} target="_blank" rel="noreferrer" style={{color: 'blue', marginTop: '1rem', display: 'block'}}
       >
         By: Frontendmike
       </a>
